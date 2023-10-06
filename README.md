@@ -7,8 +7,8 @@ As the exchange rate can change quite often depending on the dollar-pound rate, 
 
 Input csv file given as argument
 
-![TPC - input.png](images%2FTPC%20-%20input.png)
+![TPC-input.png](images%2FTPC-input.png)
 
 Output csv file
 
-![TPC - output.png](images%2FTPC%20-%20output.png)
+![TPC-output.png](images%2FTPC-output.png)

@@ -20,10 +20,10 @@ public class TicketPriceCalculator {
                 String[] fields = inputLine.split(",");
                 finalLine = new StringBuilder();
 
-                double costPrice = Double.parseDouble(fields[0]);
-                double freight = Double.parseDouble(fields[1]);
-                double margin = Double.parseDouble(fields[2]);
-                String duty = fields[3];
+                double costPrice = Double.parseDouble(fields[1]);
+                double freight = Double.parseDouble(fields[2]);
+                double margin = Double.parseDouble(fields[3]);
+                String duty = fields[4];
 
                 switch (duty) {
                     case "y":
@@ -43,7 +43,7 @@ public class TicketPriceCalculator {
                     ticketPrice = Math.ceil(ticketPrice) - 0.01;
                 }
 
-                for (int j = 0; j < 4; j++) {
+                for (int j = 0; j < 5; j++) {
                     finalLine.append(fields[j]).append(",");
                 }
 
